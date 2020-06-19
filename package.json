@@ -1,0 +1,13 @@
+{
+  "name": "sundae-rounded",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^4.0.0",
+    "svg2ttf": "^5.0.0",
+    "svgicons2svgfont": "^9.1.1"
+  }
+}

@@ -4,7 +4,7 @@ const svg2ttf = require('svg2ttf');
 const SVGIcons2SVGFontStream = require('svgicons2svgfont');
 
 const fontName = 'sundae-rounded';
-const metadata = 'Copyright (c) 2020 - Daniel Joos';
+const metadata = 'Copyright (c) 2020-2021 - Daniel Joos';
 const ttfFileName = 'sundae-rounded.ttf';
 
 async function createSvgFont() {

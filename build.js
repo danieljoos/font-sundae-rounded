@@ -22,9 +22,11 @@ async function createSvgFont() {
     const files = await fs.promises.readdir('glyphs');
     for (const file of files) {
         const glyph = fs.createReadStream(`glyphs/${file}`);
+        const unicodeMatch = file.match(/^u([\da-f]+)/)
+        const unicode = unicodeMatch ? String.fromCharCode(parseInt(unicodeMatch[1], 16)) : file.charAt(0);
         glyph.metadata = {
-            unicode: [file.charAt(0)],
-            name: file.charAt(0),
+            unicode: [unicode],
+            name: unicode,
         };
         fontStream.write(glyph);
     }

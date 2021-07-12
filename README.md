@@ -6,7 +6,7 @@ Simple rounded sans-serif font that I want to use for keycap legends.
 
 ## Remarks
 
-* At the moment the font contains only Latin uppercase letters.
+* At the moment the font contains only Latin uppercase letters and numbers.
 * The font does not define proper letter spacing or ligatures as its intended use case is the design of keycap legends.
 
 ## License
